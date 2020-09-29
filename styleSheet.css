@@ -1,0 +1,106 @@
+body {
+    box-sizing: border-box
+}
+
+p{
+    background-color: white;
+    width: 100%;
+    height: 150px;
+    border:1px solid black;
+}
+
+#heading2 {
+    margin-top: 50px ;
+    margin-bottom: 70px;
+
+}
+
+#section1 {
+    background-color: grey;
+    width: 30%;
+    height: 175px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 2px solid black;
+    display:inline-block;
+}
+#section2 {
+    background-color: grey;
+    width: 30%;
+    height: 175px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 2px solid black;
+    display:inline-block;
+}
+
+#section3 {
+    background-color: grey;
+    width: 30%;
+    height: 175px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 2px solid black;
+    display:inline-block;
+}
+#chicken {
+    border :1px solid black;
+    background-color: lightpink;
+    width: 150px;
+    float: right;
+    margin-left: 303px;
+    margin-right: -5px;
+}
+#beef {
+    border :1px solid black;
+    background-color: red;
+    width: 150px;
+    float: right;
+    margin-left: 303px;
+    margin-right: -5px;
+}
+#sushi {
+    border :1px solid black;
+    background-color: navajowhite;
+    width: 150px;
+    float: right;
+    margin-left: 303px;
+    margin-right: -5px;
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+    #section1, #section2, #section3 {
+        width: 100%;
+    }
+    #sushi, #beef, #chicken {
+        margin-left: 400px;
+    }
+}
+@media (min-width: 769px) and (max-width: 991px)  {
+    #section1, #section2 {
+        width: 45%;
+        height: 175px;
+    }
+    #section3 {
+        width: 95%;
+        height: 125px;
+    }
+    #sushi {
+        margin-left: 716px;
+    }
+}
+
+@media (min-width: 992px) {
+    #section1, #section2, section3 {
+        width :30%
+    }
+}
